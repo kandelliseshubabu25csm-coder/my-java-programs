@@ -1,0 +1,24 @@
+class c1{
+    int a =  24;
+    void sos(){
+        System.out.println("this is my first class");
+    }
+}
+// class 1 inherits the second class by using extends keyword
+public class Assign2 extends c1 {
+// to modify the method in super class
+@Override
+void sos(){
+    System.out.println("the value of a is" + a);
+    System.out.println("this is my first class");
+}
+
+
+    public static void main(String[] args) {
+        // we create an object for sub class
+        Assign2 ab =  new Assign2();
+        ab.sos();
+
+
+    }
+}
