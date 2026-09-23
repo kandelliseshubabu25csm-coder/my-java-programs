@@ -1,5 +1,5 @@
-
-    import java.util.*;
+package packagecode.java;
+import java.util.*;
 
 public class CollectionMethods {
 
@@ -64,5 +64,3 @@ public class CollectionMethods {
     }
 }
 	
-    
-
